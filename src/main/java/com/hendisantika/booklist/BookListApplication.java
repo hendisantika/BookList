@@ -23,9 +23,10 @@ public class BookListApplication {
 	public CommandLineRunner demo(BookRepository repository) {
 		return (args) -> {
 			log.info("save a couple of books");
-			repository.save(new Book("Ernest Hemingway", "A Farewell to Arms", "1232323-21", 1929));
-			repository.save(new Book("George Orwell", "Animal Farm", "2212343-5", 1945));	
-			
+			repository.save(new Book("Hendi Santika", "Kotlin in Action", "1232323-21", 2017));
+			repository.save(new Book("Hendi Santika", "Spring Boot in Action", "2212343-5", 2015));
+			repository.save(new Book("Endy Muhardin", "Java Fundamental", "2212343-6", 2016));
+
 			log.info("fetch all books");
 			for (Book book : repository.findAll()) {
 				log.info(book.toString());
