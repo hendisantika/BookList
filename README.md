@@ -4,8 +4,8 @@ A Simple Book List application built with Spring Boot, demonstrating CRUD operat
 
 ## Technology Stack
 
-- **Spring Boot**: 3.5.7
-- **Java**: 21
+- **Spring Boot**: 4.1.0
+- **Java**: 25
 - **Database**: H2 (in-memory)
 - **ORM**: Hibernate/JPA
 - **Template Engine**: Thymeleaf
@@ -13,7 +13,7 @@ A Simple Book List application built with Spring Boot, demonstrating CRUD operat
 
 ## Prerequisites
 
-- Java 21 or higher
+- Java 25 or higher
 - Maven 3.6+
 
 ## Features
