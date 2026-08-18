@@ -2,6 +2,8 @@
 
 A Simple Book List application built with Spring Boot, demonstrating CRUD operations with JPA and H2 database.
 
+![Book List Screenshot](screenshots/booklist.jpg)
+
 ## Technology Stack
 
 - **Spring Boot**: 4.1.0
